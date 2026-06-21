@@ -50,6 +50,7 @@ Thumbs.db
 
 # ── Streamlit cache ──────────────────────────────────────────────────────────
 .streamlit/
+!.streamlit/config.toml
 
 # ── Kiro workspace state (not needed in repo) ────────────────────────────────
 .kiro/
