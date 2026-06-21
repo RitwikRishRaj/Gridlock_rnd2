@@ -40,6 +40,8 @@ Thumbs.db
 
 # ── Large data files (the CSV ships separately) ──────────────────────────────
 *.csv
+# Allow the pre-built artifacts needed for the dashboard (no raw data)
+!artifacts/priority_zones.csv
 !requirements*.txt   # keep any *requirements*.txt that ends in .txt
 
 
