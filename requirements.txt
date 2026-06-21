@@ -1,25 +1,33 @@
-# Parking Intelligence - pinned runtime + test dependencies.
-# All processing runs locally and offline (Requirements 16.1, 16.2).
-# Python 3.11 required (see runtime.txt) — ensures pre-built wheels for all deps.
+# Parking Intelligence — pinned runtime + test dependencies.
+# All processing runs locally and offline.
+#
+# Compatibility matrix:
+#   streamlit>=1.41  supports pandas>=2.x and pandas 3.x
+#   pandas 2.2.x     stable, supported by all deps (h3, sklearn, lightgbm)
+#   numpy 2.x        supported by scikit-learn>=1.5 and lightgbm>=4.3
+#
+# Using pandas 2.2.3 (not 3.x) for broadest wheel availability across
+# Python 3.11/3.12 on all platforms.
 
 # --- Core data / numerics ---
-pandas==3.0.3
+pandas==2.2.3
 numpy==2.1.3
 
 # --- Spatial aggregation ---
 h3==4.1.2
 scikit-learn==1.5.2
+shapely==2.0.6
 geojson==3.1.0
 
 # --- Dashboard / visualization ---
-streamlit==1.40.2
+streamlit==1.45.1
 pydeck==0.9.1
 
-# --- Testing (local only — not needed on Streamlit Cloud) ---
-# pytest==8.3.4
-# hypothesis==6.122.3
+# --- Testing ---
+pytest==8.3.4
+hypothesis==6.122.3
 
-# --- Optional ML add-on (ml_forecast.py / analysis.py) ---
+# --- Optional ML add-on ---
 lightgbm==4.6.0
 matplotlib==3.9.2
-joblib
+joblib>=1.3.0
