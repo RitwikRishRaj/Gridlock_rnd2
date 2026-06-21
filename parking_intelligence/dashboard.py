@@ -701,9 +701,40 @@ def _render_ml_panel(zones_df: pd.DataFrame) -> None:
 # ---------------------------------------------------------------------------
 @st.cache_resource(show_spinner=False)
 def _load_forecaster(model_path: str):
+    """Load persisted DemandForecaster, auto-training it on first deploy if missing."""
     try:
         if not os.path.exists(model_path):
-            return None
+            # Auto-train: find the violation CSV in the working directory or parent.
+            csv_candidates = [
+                "jan to may police violation_anonymized791b166.csv",
+                "violations.csv",
+            ]
+            csv_path = None
+            for name in csv_candidates:
+                if os.path.exists(name):
+                    csv_path = name
+                    break
+            if csv_path is None:
+                for name in csv_candidates:
+                    up = os.path.join("..", name)
+                    if os.path.exists(up):
+                        csv_path = up
+                        break
+            if csv_path is None:
+                return None  # no CSV found — cannot train
+
+            with st.spinner("🤖 Training LightGBM forecaster on first run (~20 s)…"):
+                from parking_intelligence.forecaster import DemandForecaster
+                from parking_intelligence.ingest import Ingestor
+                from parking_intelligence.hotspots import HotspotBuilder
+                df, _ = Ingestor().load_and_clean(csv_path, chunksize=100_000)
+                df = HotspotBuilder().assign_h3(df, resolution=8)
+                fc = DemandForecaster(h3_res=8)
+                fc.fit(df)
+                os.makedirs(os.path.dirname(os.path.abspath(model_path)) or ".", exist_ok=True)
+                fc.save(model_path)
+                return fc
+
         from parking_intelligence.forecaster import DemandForecaster
         return DemandForecaster.load(model_path)
     except Exception:
@@ -727,9 +758,10 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
     fc_df = _forecast_table(model_path, n_days, 20)
 
     if fc_df is None or fc_df.empty:
-        st.info(
-            "Forecast model not available. Run `python train_forecaster.py` to "
-            "train and persist `artifacts/forecast_model.joblib`."
+        st.warning(
+            "⚠️ Forecast model not available and the violation CSV was not found "
+            "in the working directory. Place the CSV in the project root and "
+            "restart the dashboard — it will auto-train on first load (~20 s)."
         )
         return
 
