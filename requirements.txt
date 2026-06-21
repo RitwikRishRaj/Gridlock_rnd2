@@ -1,0 +1,26 @@
+# Parking Intelligence - pinned runtime + test dependencies.
+# All processing runs locally and offline (Requirements 16.1, 16.2).
+
+# --- Core data / numerics ---
+pandas==2.2.3
+numpy==2.1.3
+
+# --- Spatial aggregation ---
+h3==4.1.2
+scikit-learn==1.5.2
+shapely==2.0.6
+geojson==3.1.0
+
+# --- Dashboard / visualization ---
+streamlit==1.40.2
+pydeck==0.9.1
+
+# --- Testing ---
+pytest==8.3.4
+hypothesis==6.122.3
+
+# --- Optional ML add-on (ml_forecast.py / analysis.py) ---
+# Removable: only needed for the violation-demand forecasting model and plots.
+# Delete ml_forecast.py + eval_output/ to drop this dependency.
+lightgbm==4.6.0
+matplotlib==3.9.2
