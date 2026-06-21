@@ -2,6 +2,7 @@
 headless = true
 enableCORS = false
 enableXsrfProtection = false
+# Port is set via $PORT env var in render.yaml startCommand — do not hardcode here
 
 [theme]
 primaryColor = "#FF6B35"

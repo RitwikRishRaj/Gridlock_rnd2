@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: gridlock-patrol-intel
+    runtime: python
+    region: singapore   # closest to India
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: >-
+      streamlit run parking_intelligence/dashboard.py
+      --server.port=$PORT
+      --server.address=0.0.0.0
+      --server.headless=true
+      --server.enableCORS=false
+      --server.enableXsrfProtection=false
+      -- --artifacts artifacts/
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
