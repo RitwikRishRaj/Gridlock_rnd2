@@ -241,7 +241,9 @@ class DemandForecaster:
     def save(self, path: str) -> str:
         import joblib
         os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
-        joblib.dump(self, path)
+        # protocol=4 ensures the file is loadable by Python 3.4+ regardless of
+        # which exact Python version the deployment server uses (3.11, 3.12, 3.13…)
+        joblib.dump(self, path, protocol=4)
         return os.path.abspath(path)
 
     @staticmethod
