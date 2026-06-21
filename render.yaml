@@ -4,7 +4,7 @@ services:
     runtime: python
     region: singapore   # closest to India
     plan: free
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install --prefer-binary -r requirements.txt
     startCommand: >-
       streamlit run parking_intelligence/dashboard.py
       --server.port=$PORT
