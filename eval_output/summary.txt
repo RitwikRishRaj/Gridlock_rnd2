@@ -1,0 +1,19 @@
+PARKING INTELLIGENCE - FULL DATASET EVALUATION
+==================================================
+Rows read           : 298,450
+Rows retained       : 298,277
+Rows dropped        : 173  {'unparseable_created_at': 5, 'invalid_geo': 168}
+Hotspots detected   : 506  (DBSCAN=True)
+Priority zones      : 506
+Impact score  mean/max : 79.4 / 100.0
+Priority score mean/max: 13.16 / 94.95
+Largest hotspot     : 61,521 violations
+Distinct stations   : 53
+Runtime             : 38.3s
+
+Top 5 enforcement zones:
+  #1  Upparpet               score=94.95  peak=Sun 08-11h
+  #2  Shivajinagar           score=76.66  peak=Sun 08-11h
+  #3  Rajajinagar            score=67.49  peak=Sun 07-11h
+  #4  Malleshwaram           score=61.52  peak=Sun 08-11h
+  #5  Malleshwaram           score=60.72  peak=Sun 06-11h

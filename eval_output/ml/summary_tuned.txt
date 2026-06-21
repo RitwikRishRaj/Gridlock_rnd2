@@ -1,0 +1,19 @@
+TUNED FORECASTER - EVALUATION + PERSISTENCE
+==================================================
+H3 resolution        : 8
+Best params          : {'num_leaves': 127, 'learning_rate': 0.03, 'n_estimators': 900, 'min_child_samples': 30}
+Date range / cutoff  : 2023-11-17 -> 2024-04-08 (last 30d test)
+
+                   MAE    RMSE     R2
+model                                
+Baseline(lag7)   4.893  13.096  0.250
+LightGBM(tuned)  3.978   9.971  0.565
+
+MAE improvement over baseline : 18.7%
+Hotspot-day F1=0.622  precision=0.558  recall=0.701  ROC-AUC=0.831
+confusion matrix [actual x pred]:
+[[6524 1567]
+ [ 847 1982]]
+
+Persisted model: C:\Users\ritwi\OneDrive\Desktop\ex\Flipkart_GridLock_2.0_2nd_round_st1\artifacts\forecast_model.joblib
+Runtime: 40.0s

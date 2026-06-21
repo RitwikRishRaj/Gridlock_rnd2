@@ -42,14 +42,9 @@ Thumbs.db
 *.csv
 !requirements*.txt   # keep any *requirements*.txt that ends in .txt
 
-# ── Generated artifacts (re-created by running the pipeline) ─────────────────
-artifacts/
-eval_output/
 
-# ── Persisted ML model (re-created by train_forecaster.py) ───────────────────
-*.joblib
-*.pkl
-*.pickle
+
+
 
 # ── Streamlit cache ──────────────────────────────────────────────────────────
 .streamlit/

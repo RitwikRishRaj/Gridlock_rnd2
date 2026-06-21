@@ -1,0 +1,22 @@
+VIOLATION-DEMAND FORECASTING - EVALUATION (temporal hold-out)
+==========================================================
+Target              : daily violation count per H3 (res 8) cell
+Train / Test split  : chronological, last 30 days held out
+  date range        : 2023-11-17 -> 2024-04-08  (cutoff 2024-03-09)
+Train / Test rows   : 41,496 / 10,920
+Cells modelled      : 364
+
+                  MAE    RMSE     R2  PoissonDev
+model                                           
+Baseline(lag7)  4.893  13.096  0.250      43.040
+LightGBM        4.038   9.719  0.587       6.316
+
+MAE improvement over naive baseline : 17.5%
+
+Hotspot-day threshold : 3.0 violations/day (train 75th pct)
+precision=0.561  recall=0.700  F1=0.623  ROC-AUC=0.832
+confusion matrix [actual x pred]:
+[[6545 1546]
+ [ 850 1979]]
+
+Runtime: 7.0s
