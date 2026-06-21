@@ -1,0 +1,63 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Distribution / packaging ─────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ── Test / coverage ──────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# ── IDE / editor ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Large data files (the CSV ships separately) ──────────────────────────────
+*.csv
+!requirements*.txt   # keep any *requirements*.txt that ends in .txt
+
+# ── Generated artifacts (re-created by running the pipeline) ─────────────────
+artifacts/
+eval_output/
+
+# ── Persisted ML model (re-created by train_forecaster.py) ───────────────────
+*.joblib
+*.pkl
+*.pickle
+
+# ── Streamlit cache ──────────────────────────────────────────────────────────
+.streamlit/
+
+# ── Kiro workspace state (not needed in repo) ────────────────────────────────
+.kiro/
+
+# ── OS temp files ────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.log
