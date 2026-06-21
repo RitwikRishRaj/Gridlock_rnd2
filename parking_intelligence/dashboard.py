@@ -41,12 +41,224 @@ st.set_page_config(
 )
 
 # ---------------------------------------------------------------------------
+# Modern Minimalistic Dark CSS Theme
+# ---------------------------------------------------------------------------
+CUSTOM_CSS = """
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ─── Global Reset ─────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #0a0a0f !important;
+    color: #e2e8f0 !important;
+}
+
+/* ─── Streamlit Frame ───────────────────────────────────────────────────────── */
+.stApp { background: #0a0a0f !important; }
+
+/* Hide default Streamlit header decoration */
+header[data-testid="stHeader"] { background: transparent !important; }
+
+/* ─── Sidebar ────────────────────────────────────────────────────────────────  */
+[data-testid="stSidebar"] {
+    background: #111118 !important;
+    border-right: 1px solid rgba(255,255,255,0.06) !important;
+}
+[data-testid="stSidebar"] * { color: #cbd5e1 !important; }
+[data-testid="stSidebar"] .stSelectbox label,
+[data-testid="stSidebar"] .stCheckbox label,
+[data-testid="stSidebar"] .stSlider label { color: #94a3b8 !important; font-size: 0.8rem !important; }
+
+/* ─── KPI Cards ──────────────────────────────────────────────────────────── */
+.kpi-card {
+    background: linear-gradient(135deg, #13131f 0%, #1a1a2e 100%);
+    border: 1px solid rgba(99,102,241,0.2);
+    border-radius: 16px;
+    padding: 22px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.kpi-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(99,102,241,0.5);
+}
+.kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6, #06b6d4);
+}
+.kpi-label {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #64748b;
+    margin-bottom: 8px;
+}
+.kpi-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f1f5f9;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.kpi-sub {
+    font-size: 0.75rem;
+    color: #475569;
+}
+.kpi-high  { border-color: rgba(239,68,68,0.35) !important; }
+.kpi-high::before  { background: linear-gradient(90deg,#ef4444,#f97316) !important; }
+.kpi-med   { border-color: rgba(234,179,8,0.35) !important; }
+.kpi-med::before   { background: linear-gradient(90deg,#eab308,#f59e0b) !important; }
+.kpi-low   { border-color: rgba(34,197,94,0.35) !important; }
+.kpi-low::before   { background: linear-gradient(90deg,#22c55e,#10b981) !important; }
+.kpi-blue  { border-color: rgba(6,182,212,0.35) !important; }
+.kpi-blue::before  { background: linear-gradient(90deg,#06b6d4,#3b82f6) !important; }
+
+/* ─── Section Headers ────────────────────────────────────────────────────── */
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 32px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.section-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+.section-badge {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 20px;
+    background: rgba(99,102,241,0.15);
+    color: #818cf8;
+    border: 1px solid rgba(99,102,241,0.25);
+}
+
+/* ─── Page Title ─────────────────────────────────────────────────────────── */
+.page-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f8fafc;
+    letter-spacing: -0.03em;
+    margin-bottom: 2px;
+}
+.page-subtitle {
+    font-size: 0.82rem;
+    color: #475569;
+    margin-bottom: 0;
+}
+
+/* ─── Tabs ───────────────────────────────────────────────────────────────── */
+[data-testid="stTabs"] [role="tablist"] {
+    gap: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+    padding-bottom: 0 !important;
+}
+[data-testid="stTabs"] [role="tab"] {
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    color: #64748b !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 8px 18px !important;
+    transition: all 0.15s ease !important;
+}
+[data-testid="stTabs"] [role="tab"]:hover { color: #e2e8f0 !important; background: rgba(255,255,255,0.04) !important; }
+[data-testid="stTabs"] [role="tab"][aria-selected="true"] {
+    color: #818cf8 !important;
+    background: rgba(99,102,241,0.1) !important;
+    border-bottom: 2px solid #6366f1 !important;
+}
+
+/* ─── DataFrames ─────────────────────────────────────────────────────────── */
+[data-testid="stDataFrame"] {
+    border: 1px solid rgba(255,255,255,0.06) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+.dataframe thead th {
+    background: #111118 !important;
+    color: #64748b !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.05em !important;
+    text-transform: uppercase !important;
+    border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+}
+.dataframe tbody tr:hover td { background: rgba(99,102,241,0.05) !important; }
+
+/* ─── Metrics ────────────────────────────────────────────────────────────── */
+[data-testid="metric-container"] {
+    background: #13131f;
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 12px;
+    padding: 16px !important;
+}
+
+/* ─── Selectbox / Slider ─────────────────────────────────────────────────── */
+[data-testid="stSelectbox"] > div > div {
+    background: #13131f !important;
+    border-color: rgba(255,255,255,0.1) !important;
+    border-radius: 8px !important;
+    color: #e2e8f0 !important;
+}
+
+/* ─── Alert / Info / Warning ─────────────────────────────────────────────── */
+[data-testid="stAlert"] {
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+/* ─── Divider ────────────────────────────────────────────────────────────── */
+hr { border-color: rgba(255,255,255,0.05) !important; }
+
+/* ─── Risk badges ────────────────────────────────────────────────────────── */
+.risk-high { color: #f87171; font-weight: 600; }
+.risk-med  { color: #fbbf24; font-weight: 600; }
+.risk-low  { color: #34d399; font-weight: 600; }
+
+/* ─── Sidebar metric ─────────────────────────────────────────────────────── */
+.sidebar-stat {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-stat-label { font-size: 0.72rem; color: #64748b; }
+.sidebar-stat-value { font-size: 0.95rem; font-weight: 600; color: #e2e8f0; }
+</style>
+"""
+
+st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
+
+# ---------------------------------------------------------------------------
 # Privacy: columns that must never be shown (Requirements 16.3, 16.4)
 # ---------------------------------------------------------------------------
 _PRIVATE_COLS: set[str] = {"vehicle_number", "updated_vehicle_number", "id"}
 
 # Day-of-week labels (0=Monday).
 _DOW_LABELS: list[str] = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+_DOW_FULL: list[str] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
 # ---------------------------------------------------------------------------
@@ -56,7 +268,6 @@ def _parse_args() -> str:
     """Return the artifacts directory path from CLI args (or a default)."""
     parser = argparse.ArgumentParser(add_help=False)
     parser.add_argument("--artifacts", default="artifacts/")
-    # Streamlit passes its own args before '--'; we only look at ours.
     try:
         idx = sys.argv.index("--")
         args, _ = parser.parse_known_args(sys.argv[idx + 1:])
@@ -93,6 +304,16 @@ def load_hotspots_geojson(geojson_path: str) -> dict | None:
         return None
 
 
+@st.cache_data(show_spinner=False)
+def load_peak_windows(json_path: str) -> dict | None:
+    """Load ``peak_windows.json``; return ``None`` on any error."""
+    try:
+        with open(json_path, encoding="utf-8") as fh:
+            return json.load(fh)
+    except Exception:
+        return None
+
+
 def _geojson_to_df(geojson: dict) -> pd.DataFrame:
     """Flatten a GeoJSON FeatureCollection into a flat DataFrame."""
     rows = []
@@ -106,89 +327,171 @@ def _geojson_to_df(geojson: dict) -> pd.DataFrame:
 
 
 # ---------------------------------------------------------------------------
-# Helper: filter hotspot-event DataFrame by time window (Req 15.3)
+# Helper: filter by peak-window activity (uses peak_windows.json)
 # ---------------------------------------------------------------------------
-def filter_by_time_window(
-    df: pd.DataFrame,
+def _active_hotspot_ids(
+    peak_windows: dict,
     hour: int | None,
     dow: int | None,
-) -> pd.DataFrame:
-    """Return rows matching the selected hour and/or day-of-week.
+) -> set[str] | None:
+    """Return the set of hotspot IDs whose peak windows cover *hour* and/or *dow*.
 
-    If neither filter is set the full DataFrame is returned.
+    Returns None when no time filter is active (meaning: include everything).
+    A hotspot is considered active if ANY of its windows satisfies ALL
+    selected criteria simultaneously.
+
+    peak_windows structure (from peak_windows.json)::
+
+        {"dbscan-2": [{"day_of_week": 6, "start_hour": 8, "end_hour": 11,
+                        "expected_intensity": 1.0}, ...]}
     """
-    if df.empty:
+    if not peak_windows or (hour is None and dow is None):
+        return None   # no filter → caller keeps everything
+
+    active: set[str] = set()
+    for hspot_id, windows in peak_windows.items():
+        for w in windows:
+            hour_match = (
+                hour is None
+                or int(w.get("start_hour", 0)) <= hour <= int(w.get("end_hour", 23))
+            )
+            dow_match = (
+                dow is None
+                or int(w.get("day_of_week", -1)) == dow
+            )
+            if hour_match and dow_match:
+                active.add(hspot_id)
+                break   # one matching window is enough
+    return active
+
+
+def _filter_df_by_ids(
+    df: pd.DataFrame,
+    active_ids: set[str] | None,
+    id_col: str = "hotspot_id",
+) -> pd.DataFrame:
+    """Keep only rows whose *id_col* is in *active_ids* (pass-through if None)."""
+    if active_ids is None or df.empty or id_col not in df.columns:
         return df
-    result = df.copy()
+    return df[df[id_col].isin(active_ids)].copy()
 
-    ts_col = "created_at" if "created_at" in result.columns else "created_datetime"
-    if ts_col in result.columns and (hour is not None or dow is not None):
-        ts = pd.to_datetime(result[ts_col], errors="coerce", utc=True)
-        if hour is not None:
-            result = result[ts.dt.hour == hour]
-            ts = ts[ts.dt.hour == hour]
-        if dow is not None:
-            result = result[ts.dt.weekday == dow]
 
-    return result
+# ---------------------------------------------------------------------------
+# KPI Card helper
+# ---------------------------------------------------------------------------
+def _kpi(label: str, value: str, sub: str = "", css_class: str = "") -> str:
+    cls = f"kpi-card {css_class}".strip()
+    return f"""
+    <div class="{cls}">
+        <div class="kpi-label">{label}</div>
+        <div class="kpi-value">{value}</div>
+        <div class="kpi-sub">{sub}</div>
+    </div>"""
+
+
+def _section(icon: str, title: str, badge: str = "") -> None:
+    badge_html = f'<span class="section-badge">{badge}</span>' if badge else ""
+    st.markdown(
+        f'<div class="section-header"><h3>{icon} {title}</h3>{badge_html}</div>',
+        unsafe_allow_html=True,
+    )
 
 
 # ---------------------------------------------------------------------------
 # Rendering helpers
 # ---------------------------------------------------------------------------
 def _render_heatmap(hotspot_df: pd.DataFrame) -> None:
-    """Render a ``pydeck`` HexagonLayer heatmap (folium fallback)."""
+    """Render all hotspot centroids as visible circles on a dark map.
+
+    Uses pydeck ScatterplotLayer — one circle per hotspot, sized by
+    member_count, coloured blue→red by intensity.  Falls back to st.map()
+    when pydeck is unavailable.
+    """
     if hotspot_df.empty:
-        st.info("🗺️ No hotspot events match the selected time window.")
+        st.info("No hotspots match the selected filters.")
         return
 
     try:
         import pydeck as pdk
 
-        layer = pdk.Layer(
-            "HexagonLayer",
-            data=hotspot_df[["longitude", "latitude"]].dropna(),
+        map_df = hotspot_df[["longitude", "latitude"]].dropna().copy()
+
+        # Per-point size and colour derived from member_count
+        if "member_count" in hotspot_df.columns:
+            mc = pd.to_numeric(
+                hotspot_df.loc[map_df.index, "member_count"], errors="coerce"
+            ).fillna(1)
+            max_mc = max(float(mc.max()), 1.0)
+            norm = mc / max_mc
+            map_df["member_count"] = mc.values
+            map_df["radius"] = (norm * 420 + 80).astype(int).values   # 80–500 m
+            map_df["r"] = (norm * 220 + 20).astype(int).values        # blue → red
+            map_df["g"] = ((1 - norm) * 80 + 20).astype(int).values
+            map_df["b"] = (150 - norm * 120).astype(int).values
+            map_df["a"] = 200
+        else:
+            map_df["member_count"] = 1
+            map_df["radius"] = 150
+            map_df["r"] = 99
+            map_df["g"] = 102
+            map_df["b"] = 241
+            map_df["a"] = 200
+
+        # Copy tooltip columns
+        for col in ("hotspot_id", "police_station", "risk_tier"):
+            if col in hotspot_df.columns:
+                map_df[col] = hotspot_df.loc[map_df.index, col].values
+
+        scatter = pdk.Layer(
+            "ScatterplotLayer",
+            data=map_df,
             get_position="[longitude, latitude]",
-            radius=200,
-            elevation_scale=4,
-            elevation_range=[0, 1000],
+            get_radius="radius",
+            get_fill_color="[r, g, b, a]",
             pickable=True,
-            extruded=True,
-            color_range=[
-                [254, 240, 217],
-                [253, 204, 138],
-                [252, 141, 89],
-                [227, 74, 51],
-                [179, 0, 0],
-            ],
+            stroked=True,
+            get_line_color=[255, 255, 255, 40],
+            line_width_min_pixels=1,
         )
 
         view = pdk.ViewState(
-            latitude=hotspot_df["latitude"].mean(),
-            longitude=hotspot_df["longitude"].mean(),
+            latitude=float(map_df["latitude"].mean()),
+            longitude=float(map_df["longitude"].mean()),
             zoom=11,
-            pitch=40,
+            pitch=30,
+            bearing=0,
         )
 
-        st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view))
+        tooltip_lines = [
+            f"{label}: {{{col}}}"
+            for col, label in [
+                ("hotspot_id", "Hotspot"),
+                ("police_station", "Station"),
+                ("risk_tier", "Risk"),
+                ("member_count", "Violations"),
+            ]
+            if col in map_df.columns
+        ]
 
-    except Exception:
-        # Folium fallback.
-        try:
-            import folium
-            from streamlit_folium import st_folium
+        st.pydeck_chart(
+            pdk.Deck(
+                layers=[scatter],
+                initial_view_state=view,
+                map_style="mapbox://styles/mapbox/dark-v10",
+                tooltip={"text": "\n".join(tooltip_lines)},
+            ),
+            use_container_width=True,
+        )
 
-            m = folium.Map(
-                location=[hotspot_df["latitude"].mean(), hotspot_df["longitude"].mean()],
-                zoom_start=12,
-            )
-            from folium.plugins import HeatMap
-            heat_data = hotspot_df[["latitude", "longitude"]].dropna().values.tolist()
-            HeatMap(heat_data).add_to(m)
-            st_folium(m, width=900, height=500)
-        except Exception as err:
-            st.warning(f"Map rendering unavailable: {err}")
-            st.dataframe(hotspot_df[["hotspot_id", "latitude", "longitude", "member_count"]].head(20))
+    except Exception as pdk_err:
+        # st.map() fallback — always works, no extra deps needed
+        st.caption(f"⚠️ Interactive map unavailable ({pdk_err}). Showing basic map.")
+        fb_df = hotspot_df[["latitude", "longitude"]].dropna().rename(
+            columns={"latitude": "lat", "longitude": "lon"}
+        )
+        st.map(fb_df, zoom=11, use_container_width=True)
+
+
 
 
 def _render_top_n_table(zones_df: pd.DataFrame, n: int = 20) -> None:
@@ -197,105 +500,207 @@ def _render_top_n_table(zones_df: pd.DataFrame, n: int = 20) -> None:
         "global_rank", "hotspot_id", "police_station",
         "priority_score", "risk_tier", "anomaly_score",
         "impact", "frequency", "persistence", "recency",
-        "station_rank", "centroid_lat", "centroid_lon",
+        "station_rank",
     ] if c in zones_df.columns]
 
     top = zones_df.sort_values("global_rank").head(n) if "global_rank" in zones_df.columns else zones_df.head(n)
-    st.dataframe(top[cols].reset_index(drop=True), use_container_width=True)
+    st.dataframe(
+        top[cols].reset_index(drop=True),
+        use_container_width=True,
+        height=420,
+        column_config={
+            "priority_score": st.column_config.ProgressColumn(
+                "Priority Score", min_value=0, max_value=100, format="%.1f"
+            ),
+            "anomaly_score": st.column_config.ProgressColumn(
+                "Anomaly Score", min_value=0, max_value=1, format="%.3f"
+            ),
+            "risk_tier": st.column_config.TextColumn("Risk Tier"),
+            "global_rank": st.column_config.NumberColumn("Rank", format="%d"),
+        },
+    )
 
 
-def _render_station_drilldown(
-    zones_df: pd.DataFrame,
-    station: str,
-) -> None:
-    """Show zones, peak hours, and sample violations for *station* (Req 15.5)."""
-    st.subheader(f"📍 Station drilldown: {station}")
-
-    station_zones = zones_df[zones_df["police_station"] == station] if "police_station" in zones_df.columns else pd.DataFrame()
+def _render_station_drilldown(zones_df: pd.DataFrame, station: str) -> None:
+    """Show zones and peak hours for *station* (Req 15.5)."""
+    station_zones = (
+        zones_df[zones_df["police_station"] == station]
+        if "police_station" in zones_df.columns
+        else pd.DataFrame()
+    )
     if station_zones.empty:
         st.info("No zones found for this station.")
         return
 
-    st.markdown("**Priority zones**")
+    # Summary KPIs
+    n_zones = len(station_zones)
+    high_n = int((station_zones["risk_tier"] == "HIGH").sum()) if "risk_tier" in station_zones.columns else 0
+    top_score = float(station_zones["priority_score"].max()) if "priority_score" in station_zones.columns else 0
+
+    c1, c2, c3 = st.columns(3)
+    c1.markdown(_kpi("Zones", str(n_zones), "in this station", "kpi-blue"), unsafe_allow_html=True)
+    c2.markdown(_kpi("HIGH Risk", str(high_n), "critical zones", "kpi-high"), unsafe_allow_html=True)
+    c3.markdown(_kpi("Top Score", f"{top_score:.1f}", "max priority score"), unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
     cols = [c for c in [
         "station_rank", "hotspot_id", "priority_score", "risk_tier",
-        "anomaly_score", "impact",
+        "anomaly_score", "impact", "frequency", "persistence",
     ] if c in station_zones.columns]
+    sort_col = "station_rank" if "station_rank" in cols else cols[0]
     st.dataframe(
-        station_zones[cols].sort_values("station_rank") if "station_rank" in cols else station_zones[cols],
+        station_zones[cols].sort_values(sort_col).reset_index(drop=True),
         use_container_width=True,
+        column_config={
+            "priority_score": st.column_config.ProgressColumn(
+                "Priority Score", min_value=0, max_value=100, format="%.1f"
+            ),
+            "anomaly_score": st.column_config.ProgressColumn(
+                "Anomaly Score", min_value=0, max_value=1, format="%.3f"
+            ),
+        },
     )
+
+
+def _render_peak_windows_panel(peak_windows: dict, zones_df: pd.DataFrame | None) -> None:
+    """Render peak activity windows panel from peak_windows.json."""
+    if not peak_windows:
+        st.info("Peak windows data not available.")
+        return
+
+    # Flatten all windows into a DataFrame for analysis
+    rows = []
+    for hspot_id, windows in peak_windows.items():
+        for w in windows:
+            rows.append({
+                "hotspot_id": hspot_id,
+                "day_of_week": w.get("day_of_week", 0),
+                "day_label": _DOW_LABELS[w.get("day_of_week", 0)],
+                "start_hour": w.get("start_hour", 0),
+                "end_hour": w.get("end_hour", 0),
+                "expected_intensity": w.get("expected_intensity", 0),
+            })
+
+    if not rows:
+        st.info("No peak window data to display.")
+        return
+
+    pw_df = pd.DataFrame(rows)
+
+    col_left, col_right = st.columns([1, 1])
+
+    with col_left:
+        st.markdown("**Peak Activity by Day of Week**")
+        day_intensity = pw_df.groupby("day_label")["expected_intensity"].mean().reindex(_DOW_LABELS)
+        # Build a simple bar chart using Streamlit native
+        chart_data = pd.DataFrame({
+            "Average Intensity": day_intensity.values,
+        }, index=day_intensity.index)
+        st.bar_chart(chart_data, height=260, use_container_width=True)
+
+    with col_right:
+        st.markdown("**Top Peak Windows**")
+        top_pw = (
+            pw_df.sort_values("expected_intensity", ascending=False)
+            .head(15)
+            .reset_index(drop=True)
+        )
+        top_pw["window"] = top_pw.apply(
+            lambda r: f"{int(r['start_hour']):02d}:00–{int(r['end_hour']):02d}:00", axis=1
+        )
+        show_cols = ["hotspot_id", "day_label", "window", "expected_intensity"]
+        st.dataframe(
+            top_pw[show_cols],
+            use_container_width=True,
+            height=280,
+            column_config={
+                "expected_intensity": st.column_config.ProgressColumn(
+                    "Intensity", min_value=0, max_value=1, format="%.2f"
+                ),
+                "day_label": st.column_config.TextColumn("Day"),
+                "window": st.column_config.TextColumn("Time Window"),
+            },
+        )
 
 
 def _render_ml_panel(zones_df: pd.DataFrame) -> None:
     """Render unsupervised ML risk panel: K-Means risk tiers and IsolationForest anomaly scores."""
-    st.subheader("🤖 Unsupervised ML Risk Analysis")
-    st.caption(
-        "Two deterministic sklearn models trained on the hotspot feature matrix "
-        "(impact score, severity, proximity, concentration, log member count). "
-        "No labels are invented — both are purely data-driven."
-    )
-
-    ml_col1, ml_col2 = st.columns(2)
-
-    # K-Means risk tiers.
-    with ml_col1:
-        st.markdown("**Risk Tier Distribution** — K-Means (k=3)")
-        st.caption(
-            "Clusters hotspots by feature profile. Cluster with the highest mean "
-            "impact → HIGH; lowest → LOW. Quantile fallback when n < 3."
+    if "risk_tier" in zones_df.columns:
+        tier_counts = zones_df["risk_tier"].value_counts().reindex(
+            ["HIGH", "MEDIUM", "LOW"], fill_value=0
         )
-        if "risk_tier" in zones_df.columns:
-            tier_counts = zones_df["risk_tier"].value_counts().reindex(
-                ["HIGH", "MEDIUM", "LOW"], fill_value=0
-            )
-            c1, c2, c3 = st.columns(3)
-            c1.metric("🔴 HIGH", int(tier_counts["HIGH"]))
-            c2.metric("🟡 MEDIUM", int(tier_counts["MEDIUM"]))
-            c3.metric("🟢 LOW", int(tier_counts["LOW"]))
+        c1, c2, c3 = st.columns(3)
+        c1.markdown(
+            _kpi("HIGH Risk Zones", str(int(tier_counts["HIGH"])), "K-Means cluster", "kpi-high"),
+            unsafe_allow_html=True,
+        )
+        c2.markdown(
+            _kpi("MEDIUM Risk", str(int(tier_counts["MEDIUM"])), "K-Means cluster", "kpi-med"),
+            unsafe_allow_html=True,
+        )
+        c3.markdown(
+            _kpi("LOW Risk", str(int(tier_counts["LOW"])), "K-Means cluster", "kpi-low"),
+            unsafe_allow_html=True,
+        )
 
+    st.markdown("<br>", unsafe_allow_html=True)
+    col_tiers, col_anomaly = st.columns(2)
+
+    with col_tiers:
+        st.markdown("**HIGH-Risk Zones** *(K-Means, k=3)*")
+        if "risk_tier" in zones_df.columns:
             high_zones = zones_df[zones_df["risk_tier"] == "HIGH"].sort_values(
                 "priority_score", ascending=False
             )
-            if not high_zones.empty:
-                st.markdown("*HIGH-risk zones:*")
-                show_cols = [c for c in [
-                    "hotspot_id", "police_station", "priority_score", "anomaly_score",
-                ] if c in high_zones.columns]
-                st.dataframe(
-                    high_zones[show_cols].head(10).reset_index(drop=True),
-                    use_container_width=True,
-                )
+            show_cols = [c for c in [
+                "hotspot_id", "police_station", "priority_score", "anomaly_score",
+            ] if c in high_zones.columns]
+            st.dataframe(
+                high_zones[show_cols].head(12).reset_index(drop=True),
+                use_container_width=True,
+                height=340,
+                column_config={
+                    "priority_score": st.column_config.ProgressColumn(
+                        "Priority", min_value=0, max_value=100, format="%.1f"
+                    ),
+                    "anomaly_score": st.column_config.ProgressColumn(
+                        "Anomaly", min_value=0, max_value=1, format="%.3f"
+                    ),
+                },
+            )
         else:
-            st.info("Risk tier data not available — run the pipeline first.")
+            st.info("Risk tier data not available.")
 
-    # IsolationForest anomaly scores.
-    with ml_col2:
-        st.markdown("**Top Anomalous Hotspots** — IsolationForest")
-        st.caption(
-            "Scores each hotspot by how far its feature profile deviates from the "
-            "population. Score 1.0 = most isolated (anomalous)."
-        )
+    with col_anomaly:
+        st.markdown("**Top Anomalous Hotspots** *(IsolationForest)*")
         if "anomaly_score" in zones_df.columns:
-            anomaly_top = zones_df.sort_values("anomaly_score", ascending=False).head(10)
+            anomaly_top = zones_df.sort_values("anomaly_score", ascending=False).head(12)
             show_cols = [c for c in [
                 "hotspot_id", "police_station", "anomaly_score", "risk_tier", "priority_score",
             ] if c in anomaly_top.columns]
-            st.dataframe(anomaly_top[show_cols].reset_index(drop=True), use_container_width=True)
+            st.dataframe(
+                anomaly_top[show_cols].reset_index(drop=True),
+                use_container_width=True,
+                height=340,
+                column_config={
+                    "priority_score": st.column_config.ProgressColumn(
+                        "Priority", min_value=0, max_value=100, format="%.1f"
+                    ),
+                    "anomaly_score": st.column_config.ProgressColumn(
+                        "Anomaly", min_value=0, max_value=1, format="%.3f"
+                    ),
+                },
+            )
         else:
-            st.info("Anomaly score data not available — run the pipeline first.")
+            st.info("Anomaly score data not available.")
 
 
 # ---------------------------------------------------------------------------
-# Predictive forecast panel (OPTIONAL ML add-on — guarded, removable)
+# Predictive forecast panel
 # ---------------------------------------------------------------------------
 @st.cache_resource(show_spinner=False)
 def _load_forecaster(model_path: str):
-    """Load the persisted DemandForecaster, or return None if unavailable.
-
-    Fully guarded: if the model file is missing or LightGBM/forecaster module
-    is absent, the dashboard still runs without the prediction panel.
-    """
     try:
         if not os.path.exists(model_path):
             return None
@@ -307,7 +712,6 @@ def _load_forecaster(model_path: str):
 
 @st.cache_data(show_spinner=False)
 def _forecast_table(model_path: str, n_days: int, top_n: int) -> pd.DataFrame | None:
-    """Cached next-N-day hotspot forecast as a DataFrame (None if unavailable)."""
     fc = _load_forecaster(model_path)
     if fc is None:
         return None
@@ -322,7 +726,6 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
     model_path = os.path.join(artifacts_dir, "forecast_model.joblib")
     fc_df = _forecast_table(model_path, n_days, 20)
 
-    st.subheader(f"🔮 Predicted Hotspots — Next {n_days} Days  *(LightGBM forecaster)*")
     if fc_df is None or fc_df.empty:
         st.info(
             "Forecast model not available. Run `python train_forecaster.py` to "
@@ -331,9 +734,8 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
         return
 
     st.caption(
-        "Supervised demand forecast: predicted total violations per zone over the "
-        "next 7 days, ranked for proactive patrol scheduling. Trained on a "
-        "leakage-free temporal hold-out (last 30 days)."
+        "LightGBM demand forecast: predicted total violations per zone over the "
+        "next 7 days, ranked for proactive patrol scheduling."
     )
 
     col_tbl, col_map = st.columns([2, 3])
@@ -344,7 +746,20 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
         cols = [c for c in [
             "forecast_rank", "police_station", "total_predicted", "peak_date",
         ] if c in show.columns]
-        st.dataframe(show[cols].reset_index(drop=True), use_container_width=True)
+        st.dataframe(
+            show[cols].reset_index(drop=True),
+            use_container_width=True,
+            height=380,
+            column_config={
+                "total_predicted": st.column_config.ProgressColumn(
+                    "Predicted Violations",
+                    min_value=0,
+                    max_value=int(show["total_predicted"].max()) if "total_predicted" in show.columns else 100,
+                    format="%d",
+                ),
+                "forecast_rank": st.column_config.NumberColumn("Rank", format="%d"),
+            },
+        )
 
     with col_map:
         plot_df = fc_df.dropna(subset=["centroid_lat", "centroid_lon"]).copy()
@@ -356,25 +771,39 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
 
                 plot_df["radius"] = (
                     plot_df["total_predicted"]
-                    / max(plot_df["total_predicted"].max(), 1) * 400 + 60
+                    / max(plot_df["total_predicted"].max(), 1) * 400 + 80
                 )
+                plot_df["r"] = 220
+                plot_df["g"] = 50
+                plot_df["b"] = 100
+                plot_df["a"] = 180
+
                 layer = pdk.Layer(
                     "ScatterplotLayer",
                     data=plot_df,
                     get_position="[centroid_lon, centroid_lat]",
                     get_radius="radius",
-                    get_fill_color=[227, 74, 51, 160],
+                    get_fill_color="[r, g, b, a]",
                     pickable=True,
+                    stroked=True,
+                    get_line_color=[255, 100, 150, 200],
+                    line_width_min_pixels=1,
                 )
                 view = pdk.ViewState(
-                    latitude=plot_df["centroid_lat"].mean(),
-                    longitude=plot_df["centroid_lon"].mean(),
+                    latitude=float(plot_df["centroid_lat"].mean()),
+                    longitude=float(plot_df["centroid_lon"].mean()),
                     zoom=11,
+                    pitch=30,
                 )
-                st.pydeck_chart(pdk.Deck(
-                    layers=[layer], initial_view_state=view,
-                    tooltip={"text": "{police_station}\nPredicted: {total_predicted}"},
-                ))
+                st.pydeck_chart(
+                    pdk.Deck(
+                        layers=[layer],
+                        initial_view_state=view,
+                        map_style="mapbox://styles/mapbox/dark-v10",
+                        tooltip={"text": "{police_station}\nPredicted: {total_predicted}"},
+                    ),
+                    use_container_width=True,
+                )
             except Exception:
                 st.bar_chart(plot_df.set_index("police_station")["total_predicted"].head(10))
 
@@ -384,124 +813,301 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
 # ---------------------------------------------------------------------------
 def render_dashboard(artifacts_dir: str) -> None:
     """Render the full dashboard from pre-computed artifacts."""
-    st.title("🚦 Parking Intelligence — Bengaluru Enforcement Analytics")
-    st.caption("Offline, AI-driven prioritisation of illegal-parking hotspots.")
 
     geojson_path = os.path.join(artifacts_dir, "hotspots.geojson")
     csv_path = os.path.join(artifacts_dir, "priority_zones.csv")
-
-    # Check for ingestion report (optional, for dropped-row count, Req 15.7).
     report_path = os.path.join(artifacts_dir, "ingestion_report.json")
+    peaks_path = os.path.join(artifacts_dir, "peak_windows.json")
 
     # Load artifacts.
     zones_df = load_priority_zones(csv_path)
     geojson = load_hotspots_geojson(geojson_path)
+    peak_windows = load_peak_windows(peaks_path) if os.path.exists(peaks_path) else None
+    hotspot_df = _geojson_to_df(geojson) if geojson else pd.DataFrame()
 
-    # Surface ingestion report if present (Req 15.7).
-    if os.path.exists(report_path):
-        try:
-            with open(report_path) as f:
-                rpt = json.load(f)
-            dropped = rpt.get("total_dropped", 0)
-            retained = rpt.get("rows_retained", 0)
-            st.sidebar.metric("Rows retained", f"{retained:,}")
-            st.sidebar.metric("Rows dropped", f"{dropped:,}")
-        except Exception:
-            pass
+    # ── Sidebar ───────────────────────────────────────────────────────────────
+    with st.sidebar:
+        st.markdown(
+            """
+            <div style="padding: 8px 0 20px;">
+                <div style="font-size:1.1rem;font-weight:700;color:#f1f5f9;letter-spacing:-0.02em;">
+                    🚦 ParkIntel
+                </div>
+                <div style="font-size:0.72rem;color:#475569;margin-top:2px;">
+                    Bengaluru Enforcement Analytics
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
-    # Sidebar controls.
-    st.sidebar.header("🔍 Filters")
+        # Ingestion stats (Req 15.7).
+        if os.path.exists(report_path):
+            try:
+                with open(report_path) as f:
+                    rpt = json.load(f)
+                dropped = rpt.get("total_dropped", 0)
+                retained = rpt.get("rows_retained", 0)
+                st.markdown(
+                    f"""
+                    <div class="sidebar-stat">
+                        <span class="sidebar-stat-label">Rows retained</span>
+                        <span class="sidebar-stat-value">{retained:,}</span>
+                    </div>
+                    <div class="sidebar-stat">
+                        <span class="sidebar-stat-label">Rows dropped</span>
+                        <span class="sidebar-stat-value">{dropped:,}</span>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
+            except Exception:
+                pass
 
-    # H3 fallback warning (Req 18.4): detect if all hotspot IDs start with "h3-".
+        st.markdown("---")
+        st.markdown(
+            '<div style="font-size:0.7rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#475569;margin-bottom:12px;">Time Window</div>',
+            unsafe_allow_html=True,
+        )
+
+        # Time-slider filters (Requirements 15.3, 15.4).
+        filter_hour = st.checkbox("Filter by hour", value=False, key="sb_filter_hour")
+        hour_sel: int | None = None
+        if filter_hour:
+            hour_sel = st.slider("Hour of day", 0, 23, 8, format="%d:00", key="sb_hour_slider")
+
+        filter_dow = st.checkbox("Filter by day of week", value=False, key="sb_filter_dow")
+        dow_sel: int | None = None
+        if filter_dow:
+            dow_sel = st.selectbox(
+                "Day of week",
+                list(range(7)),
+                format_func=lambda i: _DOW_FULL[i],
+                key="sb_dow_select",
+            )
+
+        st.markdown("---")
+        st.markdown(
+            '<div style="font-size:0.7rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#475569;margin-bottom:12px;">Station Drilldown</div>',
+            unsafe_allow_html=True,
+        )
+
+
+        all_stations: list[str] = []
+        if zones_df is not None and "police_station" in zones_df.columns:
+            all_stations = sorted(zones_df["police_station"].dropna().unique().tolist())
+        selected_station: str | None = None
+        if all_stations:
+            selected_station = st.selectbox("Police station", ["\u2014 select \u2014"] + all_stations, key="sb_station_select")
+            if selected_station == "\u2014 select \u2014":
+                selected_station = None
+
+        st.markdown("---")
+        st.markdown(
+            '<div style="font-size:0.7rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#475569;margin-bottom:12px;">ML Risk Filter</div>',
+            unsafe_allow_html=True,
+        )
+
+        risk_filter: str | None = None
+        if zones_df is not None and "risk_tier" in zones_df.columns:
+            risk_filter = st.selectbox("Risk tier", ["All", "HIGH", "MEDIUM", "LOW"], key="sb_risk_select")
+            if risk_filter == "All":
+                risk_filter = None
+
+    # \u2500\u2500 H3 fallback warning (Req 18.4) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     if geojson:
         all_ids = [f["properties"].get("hotspot_id", "") for f in geojson.get("features", [])]
         if all_ids and all(hid.startswith("h3-") for hid in all_ids):
             st.warning(
-                "⚠️ **No density clusters found** (DBSCAN labelled every point as noise). "
-                "Showing H3-cell heatmap. Consider relaxing `eps_m` or `min_samples`."
+                "\u26a0\ufe0f **No DBSCAN clusters found** \u2014 showing H3-cell heatmap fallback. "
+                "Consider relaxing `eps_m` or `min_samples`."
             )
 
-    # Convert GeoJSON to DataFrame for the heatmap and time-filtering.
-    hotspot_df = _geojson_to_df(geojson) if geojson else pd.DataFrame()
+    # \u2500\u2500 Page header \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    st.markdown(
+        """
+        <div style="padding: 16px 0 8px;">
+            <div class="page-title">Bengaluru Parking Intelligence</div>
+            <div class="page-subtitle">AI-driven hotspot prioritisation &amp; enforcement analytics</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
-    # Time-slider filters (Requirements 15.3, 15.4).
-    st.sidebar.subheader("⏱️ Time window")
-    filter_hour = st.sidebar.checkbox("Filter by hour", value=False)
-    hour_sel: int | None = None
-    if filter_hour:
-        hour_sel = st.sidebar.slider("Hour of day", 0, 23, 8)
+    # \u2500\u2500 Top KPI row \u2014 reactive to ALL filters \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    # Compute active_ids early so KPI row can use them
+    active_ids_kpi = _active_hotspot_ids(peak_windows, hour_sel, dow_sel)
+    time_filter_active_kpi = active_ids_kpi is not None
 
-    filter_dow = st.sidebar.checkbox("Filter by day of week", value=False)
-    dow_sel: int | None = None
-    if filter_dow:
-        dow_sel = st.sidebar.selectbox(
-            "Day of week",
-            list(range(7)),
-            format_func=lambda i: _DOW_LABELS[i],
-        )
+    if zones_df is not None and not zones_df.empty:
+        kpi_df = _filter_df_by_ids(zones_df.copy(), active_ids_kpi, "hotspot_id")
+        if risk_filter and "risk_tier" in kpi_df.columns:
+            kpi_df = kpi_df[kpi_df["risk_tier"] == risk_filter]
+        if selected_station and "police_station" in kpi_df.columns:
+            kpi_df = kpi_df[kpi_df["police_station"] == selected_station]
 
-    # Police-station drilldown selector.
-    st.sidebar.subheader("🏢 Station drilldown")
-    all_stations: list[str] = []
-    if zones_df is not None and "police_station" in zones_df.columns:
-        all_stations = sorted(zones_df["police_station"].dropna().unique().tolist())
-    selected_station: str | None = None
-    if all_stations:
-        selected_station = st.sidebar.selectbox("Police station", ["(none)"] + all_stations)
-        if selected_station == "(none)":
-            selected_station = None
+        total_zones = len(kpi_df)
+        total_all   = len(zones_df)
+        n_high     = int((kpi_df["risk_tier"] == "HIGH").sum()) if "risk_tier" in kpi_df.columns else 0
+        n_stations = kpi_df["police_station"].nunique() if "police_station" in kpi_df.columns else 0
+        avg_score  = kpi_df["priority_score"].mean() if "priority_score" in kpi_df.columns and not kpi_df.empty else 0.0
 
-    # ML risk tier filter.
-    st.sidebar.subheader("🤖 ML Risk Filter")
-    risk_filter: str | None = None
-    if zones_df is not None and "risk_tier" in zones_df.columns:
-        risk_filter = st.sidebar.selectbox(
-            "Risk tier",
-            ["(all)", "HIGH", "MEDIUM", "LOW"],
-        )
-        if risk_filter == "(all)":
-            risk_filter = None
+        filter_active = bool(risk_filter or selected_station or time_filter_active_kpi)
+        kpi_sub_zones = f"of {total_all} total" if filter_active else "detected zones"
+        kpi_sub_high  = f"{n_high/total_zones*100:.0f}% of filtered" if total_zones > 0 else "\u2014"
 
-    # Main panel — two columns.
-    col_map, col_table = st.columns([3, 2])
+        c1, c2, c3, c4 = st.columns(4)
+        c1.markdown(_kpi("Filtered Hotspots" if filter_active else "Total Hotspots", f"{total_zones:,}", kpi_sub_zones, "kpi-blue"), unsafe_allow_html=True)
+        c2.markdown(_kpi("HIGH Risk Zones", str(n_high), kpi_sub_high, "kpi-high"), unsafe_allow_html=True)
+        c3.markdown(_kpi("Police Stations", str(n_stations), "in selection" if filter_active else "coverage areas"), unsafe_allow_html=True)
+        c4.markdown(_kpi("Avg Priority Score", f"{avg_score:.1f}" if not kpi_df.empty else "\u2014", "filtered avg" if filter_active else "across all zones", "kpi-med"), unsafe_allow_html=True)
 
-    with col_map:
-        st.subheader("🗺️ Violation Heatmap")
-        filtered_df = hotspot_df
-        if not hotspot_df.empty and (hour_sel is not None or dow_sel is not None):
-            # We can only filter if the hotspot_df retains a timestamp column.
-            # For the heatmap we use member_count as a proxy (no raw events in GeoJSON).
-            # Show a note and render with whatever we have.
-            st.caption(f"Heatmap filtered — hour={hour_sel}, dow={_DOW_LABELS[dow_sel] if dow_sel is not None else 'any'}")
-        _render_heatmap(filtered_df)
+    st.markdown("<br>", unsafe_allow_html=True)
 
-    with col_table:
-        st.subheader("🏆 Top 20 Priority Zones")
-        display_df = zones_df
+    # ── Tabs ──────────────────────────────────────────────────────────────────
+    tab_map, tab_zones, tab_ml, tab_forecast, tab_peaks, tab_drilldown = st.tabs([
+        "🗺️  Live Map",
+        "🏆  Priority Zones",
+        "🤖  ML Analysis",
+        "🔮  Forecast",
+        "⏱️  Peak Windows",
+        "📍  Station Drilldown",
+    ])
+
+    # ── Compute filtered data (used across all tabs) ─────────────────────────
+    # Reuse the same active_ids already computed for the KPI row
+    active_ids = active_ids_kpi
+    time_filter_active = time_filter_active_kpi
+
+    # Apply time filter to map and zones data
+    filtered_hotspot_df = _filter_df_by_ids(hotspot_df, active_ids, "hotspot_id")
+    filtered_zones_df   = _filter_df_by_ids(zones_df,   active_ids, "hotspot_id") if zones_df is not None else None
+
+    # Apply risk-tier filter on top
+    if filtered_zones_df is not None and risk_filter and "risk_tier" in filtered_zones_df.columns:
+        filtered_zones_df = filtered_zones_df[filtered_zones_df["risk_tier"] == risk_filter]
+
+    # ── Tab 1: Live Map ────────────────────────────────────────────────────────
+    with tab_map:
+        _section("🗺️", "Violation Heatmap", "pydeck / folium")
+        if time_filter_active:
+            parts = []
+            if hour_sel is not None:
+                parts.append(f"{hour_sel:02d}:00")
+            if dow_sel is not None:
+                parts.append(_DOW_FULL[dow_sel])
+            n_filt = len(filtered_hotspot_df)
+            n_total = len(hotspot_df)
+            st.caption(
+                f"🔍 Peak-window filter active: **{', '.join(parts)}** — "
+                f"**{n_filt}** of {n_total} hotspots have recorded activity at this time"
+            )
+        _render_heatmap(filtered_hotspot_df)
+
+        if filtered_hotspot_df.empty and time_filter_active:
+            st.info("No hotspots have recorded peak activity at the selected hour / day.")
+
+    # ── Tab 2: Priority Zones ─────────────────────────────────────────────────
+    with tab_zones:
+        _section("🏆", "Top Priority Zones", "global rank")
+
+        # Apply ALL filters: time (via peak windows) + risk tier + station
+        display_df = _filter_df_by_ids(zones_df, active_ids, "hotspot_id") if zones_df is not None else None
         if display_df is not None and risk_filter and "risk_tier" in display_df.columns:
             display_df = display_df[display_df["risk_tier"] == risk_filter]
+        if display_df is not None and selected_station and "police_station" in display_df.columns:
+            display_df = display_df[display_df["police_station"] == selected_station]
+
+        # Active filter summary badge
+        active_filters = []
+        if time_filter_active:
+            time_parts = []
+            if hour_sel is not None:
+                time_parts.append(f"{hour_sel:02d}:00")
+            if dow_sel is not None:
+                time_parts.append(_DOW_FULL[dow_sel])
+            active_filters.append(f"Time: **{', '.join(time_parts)}**")
+        if risk_filter:
+            active_filters.append(f"Risk: **{risk_filter}**")
+        if selected_station:
+            active_filters.append(f"Station: **{selected_station}**")
+        if active_filters:
+            n_shown = len(display_df) if display_df is not None else 0
+            st.caption(f"🔍 {' · '.join(active_filters)} — **{n_shown}** zone(s) shown")
+
         if display_df is not None and not display_df.empty:
             _render_top_n_table(display_df, n=20)
         elif display_df is not None:
-            st.info("No priority zones available for the selected filter.")
+            st.info("No priority zones match the selected filters.")
 
-    # Station drilldown.
-    if selected_station and zones_df is not None:
-        st.divider()
-        _render_station_drilldown(zones_df, selected_station)
+    # ── Tab 3: ML Analysis ────────────────────────────────────────────────────
+    with tab_ml:
+        _section("🤖", "Unsupervised ML Risk Analysis", "K-Means + IsolationForest")
+        st.caption(
+            "Two deterministic sklearn models trained on the hotspot feature matrix "
+            "(impact, severity, proximity, concentration, log member count). "
+            "Purely data-driven — no invented labels."
+        )
+        # Use the fully filtered zones (time + risk)
+        ml_data = filtered_zones_df
+        any_ml_filter = time_filter_active or bool(risk_filter)
+        if any_ml_filter and ml_data is not None:
+            parts = []
+            if time_filter_active:
+                if hour_sel is not None:
+                    parts.append(f"{hour_sel:02d}:00")
+                if dow_sel is not None:
+                    parts.append(_DOW_FULL[dow_sel])
+            if risk_filter:
+                parts.append(risk_filter)
+            st.caption(f"🔍 Filtered — {', '.join(parts)} — {len(ml_data) if ml_data is not None else 0} zone(s)")
+        if ml_data is not None and not ml_data.empty:
+            _render_ml_panel(ml_data)
+        elif ml_data is not None:
+            st.info("No zones match the selected filters.")
+        else:
+            st.info("Run the pipeline first to generate ML analysis data.")
 
-    # ML insight panel.
-    if zones_df is not None and not zones_df.empty:
-        st.divider()
-        _render_ml_panel(zones_df)
+    # ── Tab 4: Forecast ───────────────────────────────────────────────────────
+    with tab_forecast:
+        _section("🔮", "Predicted Hotspots — Next 7 Days", "LightGBM")
+        _render_forecast_panel(artifacts_dir, n_days=7)
 
-    # Predictive forecast panel (guarded ML add-on).
-    st.divider()
-    _render_forecast_panel(artifacts_dir, n_days=7)
+    # ── Tab 5: Peak Windows ───────────────────────────────────────────────────
+    with tab_peaks:
+        _section("⏱️", "Peak Activity Windows", "patrol scheduling")
+        st.caption(
+            "Recurring peak windows extracted from historical violation data. "
+            "Use these to plan patrol schedules for maximum coverage."
+        )
+        _render_peak_windows_panel(peak_windows, zones_df)
 
-    # Empty heatmap message (Req 15.4).
-    if filtered_df is not None and filtered_df.empty:
-        st.info("No violations match the selected time window.")
+    # ── Tab 6: Station Drilldown ──────────────────────────────────────────────
+    with tab_drilldown:
+        _section("📍", "Station Drilldown", "per-station analysis")
+        if selected_station and zones_df is not None:
+            st.markdown(f"**{selected_station}** — detailed zone breakdown")
+            # Apply risk filter within drilldown too
+            drilldown_df = zones_df
+            if risk_filter and "risk_tier" in drilldown_df.columns:
+                drilldown_df = drilldown_df[drilldown_df["risk_tier"] == risk_filter]
+                if not drilldown_df.empty:
+                    st.caption(f"🔍 Showing only **{risk_filter}** risk zones for this station")
+            _render_station_drilldown(drilldown_df, selected_station)
+        elif zones_df is not None:
+            st.markdown(
+                """
+                <div style="background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.2);
+                            border-radius:12px;padding:20px 24px;margin-top:12px;">
+                    <div style="font-size:0.85rem;color:#818cf8;font-weight:600;margin-bottom:6px;">No station selected</div>
+                    <div style="font-size:0.8rem;color:#64748b;">Use the <strong style="color:#94a3b8;">Station Drilldown</strong> 
+                    dropdown in the sidebar to pick a police station and view its zone breakdown here.</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+        else:
+            st.error("Priority zones data not loaded.")
 
 
 # ---------------------------------------------------------------------------

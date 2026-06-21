@@ -1,0 +1,9556 @@
+{
+  "dbscan-2": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 11,
+      "expected_intensity": 0.8545711260148253
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 11,
+      "expected_intensity": 0.7296152488528063
+    }
+  ],
+  "dbscan-3": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 0.6207994340290061
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5387336399009551
+    }
+  ],
+  "dbscan-5": [
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 12,
+      "expected_intensity": 0.9410085632730733
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 11,
+      "expected_intensity": 0.9067554709800191
+    }
+  ],
+  "dbscan-11": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 6,
+      "expected_intensity": 0.9320822162645219
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 10,
+      "expected_intensity": 0.8945487042001787
+    }
+  ],
+  "dbscan-32": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.980309423347398
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 10,
+      "expected_intensity": 0.980309423347398
+    }
+  ],
+  "dbscan-34": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 0.8988195615514334
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.821247892074199
+    }
+  ],
+  "dbscan-61": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8341013824884793
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 0.7788018433179723
+    }
+  ],
+  "dbscan-30": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 12,
+      "expected_intensity": 0.8582278481012658
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6860759493670886
+    }
+  ],
+  "dbscan-24": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7952218430034129
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.7952218430034129
+    }
+  ],
+  "dbscan-7": [
+    {
+      "day_of_week": 0,
+      "start_hour": 0,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 0,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.9885386819484241
+    }
+  ],
+  "dbscan-44": [
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7614035087719299
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7263157894736842
+    }
+  ],
+  "dbscan-28": [
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.9810725552050473
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7791798107255521
+    }
+  ],
+  "dbscan-15": [
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7610921501706485
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 14,
+      "expected_intensity": 0.6996587030716723
+    }
+  ],
+  "dbscan-35": [
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.895910780669145
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5018587360594795
+    }
+  ],
+  "dbscan-17": [
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 0.7363896848137536
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6848137535816619
+    }
+  ],
+  "dbscan-114": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8731988472622478
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6311239193083573
+    }
+  ],
+  "dbscan-79": [
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 0.8838709677419355
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8709677419354839
+    }
+  ],
+  "dbscan-8": [
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.7229437229437229
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.6103896103896104
+    }
+  ],
+  "dbscan-121": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.7993527508090615
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.656957928802589
+    }
+  ],
+  "dbscan-27": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.875968992248062
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 11,
+      "expected_intensity": 0.8294573643410853
+    }
+  ],
+  "dbscan-23": [
+    {
+      "day_of_week": 1,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7383177570093458
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7320872274143302
+    }
+  ],
+  "dbscan-55": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8991596638655462
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.865546218487395
+    }
+  ],
+  "dbscan-102": [
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 6,
+      "expected_intensity": 0.9432624113475178
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 0.8581560283687943
+    }
+  ],
+  "dbscan-80": [
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8453038674033149
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.6685082872928176
+    }
+  ],
+  "dbscan-18": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.7035647279549718
+    }
+  ],
+  "dbscan-4": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8218623481781376
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 0.7732793522267206
+    }
+  ],
+  "dbscan-45": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 6,
+      "expected_intensity": 0.9819819819819819
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.963963963963964
+    }
+  ],
+  "dbscan-94": [
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8195488721804511
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7744360902255639
+    }
+  ],
+  "dbscan-21": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.9768339768339769
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8687258687258688
+    }
+  ],
+  "dbscan-57": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7426900584795322
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5789473684210527
+    }
+  ],
+  "dbscan-22": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.9390862944162437
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 0.9086294416243654
+    }
+  ],
+  "dbscan-86": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6850393700787402
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6850393700787402
+    }
+  ],
+  "dbscan-20": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-40": [
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7391304347826086
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5826086956521739
+    }
+  ],
+  "dbscan-168": [
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 9,
+      "expected_intensity": 0.9405940594059405
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 7,
+      "expected_intensity": 0.8811881188118812
+    }
+  ],
+  "dbscan-29": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.9560439560439561
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.9340659340659341
+    }
+  ],
+  "dbscan-77": [
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 13,
+      "expected_intensity": 0.8009478672985783
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5071090047393365
+    }
+  ],
+  "dbscan-139": [
+    {
+      "day_of_week": 0,
+      "start_hour": 1,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 10,
+      "expected_intensity": 0.9701492537313433
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8208955223880597
+    }
+  ],
+  "dbscan-81": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.971830985915493
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.9436619718309859
+    }
+  ],
+  "dbscan-59": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7709923664122137
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7404580152671756
+    }
+  ],
+  "dbscan-83": [
+    {
+      "day_of_week": 0,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5664335664335665
+    }
+  ],
+  "dbscan-72": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-16": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.9292035398230089
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.911504424778761
+    }
+  ],
+  "dbscan-69": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.825503355704698
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.825503355704698
+    }
+  ],
+  "dbscan-179": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6641221374045801
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.5877862595419847
+    }
+  ],
+  "dbscan-46": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8241758241758241
+    }
+  ],
+  "dbscan-82": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9849056603773585
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9849056603773585
+    }
+  ],
+  "dbscan-60": [
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7117117117117117
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.6036036036036037
+    }
+  ],
+  "dbscan-87": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6129032258064516
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5913978494623656
+    }
+  ],
+  "dbscan-113": [
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6685082872928176
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.580110497237569
+    }
+  ],
+  "dbscan-54": [
+    {
+      "day_of_week": 4,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 14,
+      "expected_intensity": 0.978021978021978
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 14,
+      "end_hour": 15,
+      "expected_intensity": 0.8241758241758241
+    }
+  ],
+  "dbscan-63": [
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 0.9047619047619048
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8412698412698413
+    }
+  ],
+  "dbscan-118": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.7614678899082569
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5963302752293578
+    }
+  ],
+  "dbscan-128": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.9701492537313433
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 0.7910447761194029
+    }
+  ],
+  "dbscan-37": [
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-309": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6993464052287581
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-0": [
+    {
+      "day_of_week": 1,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.944954128440367
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.944954128440367
+    }
+  ],
+  "dbscan-157": [
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-1": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.9058823529411765
+    }
+  ],
+  "dbscan-10": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 13,
+      "expected_intensity": 0.9759036144578314
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.8554216867469879
+    }
+  ],
+  "dbscan-105": [
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.9692307692307692
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.7538461538461538
+    }
+  ],
+  "dbscan-115": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8021978021978022
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6703296703296703
+    }
+  ],
+  "dbscan-116": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.9506172839506173
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.9012345679012346
+    }
+  ],
+  "dbscan-138": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-100": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-120": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 12,
+      "expected_intensity": 0.9016393442622951
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7377049180327869
+    }
+  ],
+  "dbscan-70": [
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.9534883720930233
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 0.9069767441860465
+    }
+  ],
+  "dbscan-202": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8823529411764706
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-53": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 0.7662337662337663
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7402597402597403
+    }
+  ],
+  "dbscan-47": [
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7014925373134329
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6417910447761194
+    }
+  ],
+  "dbscan-221": [
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 0.8545454545454545
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-159": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-67": [
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.9096045197740112
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.5141242937853108
+    }
+  ],
+  "dbscan-93": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.9789473684210527
+    }
+  ],
+  "dbscan-74": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 0.9036144578313253
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6626506024096386
+    }
+  ],
+  "dbscan-144": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.9487179487179487
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7948717948717948
+    }
+  ],
+  "dbscan-216": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.9272727272727272
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8545454545454545
+    }
+  ],
+  "dbscan-199": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.9701492537313433
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 0.7014925373134329
+    }
+  ],
+  "dbscan-65": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8596491228070176
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8596491228070176
+    }
+  ],
+  "dbscan-85": [
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.660377358490566
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5849056603773585
+    }
+  ],
+  "dbscan-160": [
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-265": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5342465753424658
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5068493150684932
+    }
+  ],
+  "dbscan-56": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7746478873239436
+    }
+  ],
+  "dbscan-245": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.9322033898305084
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.559322033898305
+    }
+  ],
+  "dbscan-48": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.5555555555555556
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5353535353535354
+    }
+  ],
+  "dbscan-112": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7627118644067796
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7288135593220338
+    }
+  ],
+  "dbscan-142": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-125": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-204": [
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-141": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.696969696969697
+    }
+  ],
+  "dbscan-88": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-264": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 10,
+      "expected_intensity": 0.7611940298507462
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.582089552238806
+    }
+  ],
+  "dbscan-257": [
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 9,
+      "expected_intensity": 0.8604651162790697
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.627906976744186
+    }
+  ],
+  "dbscan-225": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-282": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.9428571428571428
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8857142857142857
+    }
+  ],
+  "dbscan-187": [
+    {
+      "day_of_week": 2,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.9076923076923077
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-14": [
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6585365853658537
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5609756097560976
+    }
+  ],
+  "dbscan-12": [
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 9,
+      "expected_intensity": 0.7435897435897436
+    }
+  ],
+  "dbscan-154": [
+    {
+      "day_of_week": 6,
+      "start_hour": 0,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6421052631578947
+    }
+  ],
+  "dbscan-42": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-103": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-153": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.9058823529411765
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6235294117647059
+    }
+  ],
+  "dbscan-183": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8688524590163934
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6065573770491803
+    }
+  ],
+  "dbscan-49": [
+    {
+      "day_of_week": 5,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7419354838709677
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 0.7419354838709677
+    }
+  ],
+  "dbscan-104": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.76
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7066666666666667
+    }
+  ],
+  "dbscan-109": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6705882352941176
+    }
+  ],
+  "dbscan-111": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-136": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.84
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.76
+    }
+  ],
+  "dbscan-108": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7099236641221374
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6335877862595419
+    }
+  ],
+  "dbscan-174": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-43": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9591836734693877
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 10,
+      "expected_intensity": 0.8775510204081632
+    }
+  ],
+  "dbscan-203": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.855072463768116
+    }
+  ],
+  "dbscan-122": [
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7435897435897436
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6410256410256411
+    }
+  ],
+  "dbscan-165": [
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6712328767123288
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5342465753424658
+    }
+  ],
+  "dbscan-131": [
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8823529411764706
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 0.7647058823529411
+    }
+  ],
+  "dbscan-147": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5363321799307958
+    }
+  ],
+  "dbscan-236": [
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7090909090909091
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-52": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7931034482758621
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7241379310344828
+    }
+  ],
+  "dbscan-13": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6410256410256411
+    }
+  ],
+  "dbscan-146": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 8,
+      "expected_intensity": 0.7419354838709677
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6774193548387096
+    }
+  ],
+  "dbscan-182": [
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8285714285714286
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5428571428571428
+    }
+  ],
+  "dbscan-130": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7288135593220338
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6949152542372882
+    }
+  ],
+  "dbscan-98": [
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-286": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.92
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 14,
+      "expected_intensity": 0.84
+    }
+  ],
+  "dbscan-307": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7435897435897436
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-219": [
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7215189873417721
+    }
+  ],
+  "dbscan-163": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7575757575757576
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-230": [
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9259259259259259
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 0.8518518518518519
+    }
+  ],
+  "dbscan-161": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9636363636363636
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-101": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7931034482758621
+    }
+  ],
+  "dbscan-311": [
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7021276595744681
+    }
+  ],
+  "dbscan-214": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-68": [
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 0.9047619047619048
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-176": [
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.9130434782608695
+    }
+  ],
+  "dbscan-368": [
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5118110236220472
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5118110236220472
+    }
+  ],
+  "dbscan-51": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6190476190476191
+    }
+  ],
+  "dbscan-195": [
+    {
+      "day_of_week": 5,
+      "start_hour": 15,
+      "end_hour": 15,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7714285714285715
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 16,
+      "end_hour": 16,
+      "expected_intensity": 0.6571428571428571
+    }
+  ],
+  "dbscan-274": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 0.8260869565217391
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-205": [
+    {
+      "day_of_week": 5,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 0.9487179487179487
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8974358974358975
+    }
+  ],
+  "dbscan-38": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-135": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7435897435897436
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-171": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-218": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.7209302325581395
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.627906976744186
+    }
+  ],
+  "dbscan-277": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.7931034482758621
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6551724137931034
+    }
+  ],
+  "dbscan-126": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.8947368421052632
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7894736842105263
+    }
+  ],
+  "dbscan-148": [
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-117": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.68
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.68
+    }
+  ],
+  "dbscan-215": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.9574468085106383
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5319148936170213
+    }
+  ],
+  "dbscan-19": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 0.9746835443037974
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.569620253164557
+    }
+  ],
+  "dbscan-233": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7837837837837838
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6216216216216216
+    }
+  ],
+  "dbscan-106": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8095238095238095
+    }
+  ],
+  "dbscan-194": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-181": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-197": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5135135135135135
+    }
+  ],
+  "dbscan-339": [
+    {
+      "day_of_week": 6,
+      "start_hour": 23,
+      "end_hour": 23,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-268": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7575757575757576
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-363": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.8260869565217391
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-200": [
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 11,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-76": [
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7435897435897436
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7435897435897436
+    }
+  ],
+  "dbscan-156": [
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.8095238095238095
+    }
+  ],
+  "dbscan-140": [
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-207": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9024390243902439
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8048780487804879
+    }
+  ],
+  "dbscan-62": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-209": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7391304347826086
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-301": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-367": [
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.8260869565217391
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-189": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-414": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-193": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8620689655172413
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5862068965517241
+    }
+  ],
+  "dbscan-170": [
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8095238095238095
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6190476190476191
+    }
+  ],
+  "dbscan-314": [
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.92
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.68
+    }
+  ],
+  "dbscan-251": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.9047619047619048
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-330": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-303": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5121951219512195
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.5121951219512195
+    }
+  ],
+  "dbscan-237": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6551724137931034
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.5172413793103449
+    }
+  ],
+  "dbscan-243": [
+    {
+      "day_of_week": 4,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7837837837837838
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6756756756756757
+    }
+  ],
+  "dbscan-360": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.8064516129032258
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.8064516129032258
+    }
+  ],
+  "dbscan-58": [
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-31": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6551724137931034
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5172413793103449
+    }
+  ],
+  "dbscan-305": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-226": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7176470588235294
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-92": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6842105263157895
+    }
+  ],
+  "dbscan-334": [
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8947368421052632
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7894736842105263
+    }
+  ],
+  "dbscan-389": [
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5757575757575758
+    }
+  ],
+  "dbscan-155": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5789473684210527
+    }
+  ],
+  "dbscan-359": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7931034482758621
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6551724137931034
+    }
+  ],
+  "dbscan-241": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7714285714285715
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-211": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 2,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8666666666666667
+    }
+  ],
+  "dbscan-358": [
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 1,
+      "end_hour": 3,
+      "expected_intensity": 0.8666666666666667
+    }
+  ],
+  "dbscan-220": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5897435897435898
+    }
+  ],
+  "dbscan-416": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.5471698113207547
+    }
+  ],
+  "dbscan-433": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-294": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-167": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.84
+    }
+  ],
+  "dbscan-380": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.9555555555555556
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8222222222222222
+    }
+  ],
+  "dbscan-533": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6551724137931034
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 2,
+      "expected_intensity": 0.5862068965517241
+    }
+  ],
+  "dbscan-287": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-355": [
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7419354838709677
+    }
+  ],
+  "dbscan-281": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-325": [
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-248": [
+    {
+      "day_of_week": 4,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9047619047619048
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.9047619047619048
+    }
+  ],
+  "dbscan-252": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-173": [
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8095238095238095
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6190476190476191
+    }
+  ],
+  "dbscan-328": [
+    {
+      "day_of_week": 0,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6923076923076923
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-192": [
+    {
+      "day_of_week": 6,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.5254237288135594
+    }
+  ],
+  "dbscan-371": [
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-423": [
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-249": [
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7894736842105263
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6842105263157895
+    }
+  ],
+  "dbscan-223": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-90": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7333333333333333
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-172": [
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-244": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-291": [
+    {
+      "day_of_week": 2,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-175": [
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-95": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.52
+    }
+  ],
+  "dbscan-26": [
+    {
+      "day_of_week": 5,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-279": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-310": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.9047619047619048
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8095238095238095
+    }
+  ],
+  "dbscan-302": [
+    {
+      "day_of_week": 4,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-260": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-78": [
+    {
+      "day_of_week": 3,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-262": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-498": [
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-164": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-73": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8823529411764706
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7647058823529411
+    }
+  ],
+  "dbscan-454": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8823529411764706
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8823529411764706
+    }
+  ],
+  "dbscan-36": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-319": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-406": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6140350877192983
+    }
+  ],
+  "dbscan-258": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7391304347826086
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-25": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-263": [
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-217": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8709677419354839
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8064516129032258
+    }
+  ],
+  "dbscan-379": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6190476190476191
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.5238095238095238
+    }
+  ],
+  "dbscan-41": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-326": [
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.52
+    }
+  ],
+  "dbscan-469": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-185": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7419354838709677
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6774193548387096
+    }
+  ],
+  "dbscan-9": [
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-150": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7894736842105263
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6842105263157895
+    }
+  ],
+  "dbscan-430": [
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-254": [
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6842105263157895
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.543859649122807
+    }
+  ],
+  "dbscan-344": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.5238095238095238
+    }
+  ],
+  "dbscan-97": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5384615384615384
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-306": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7391304347826086
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-259": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5172413793103449
+    }
+  ],
+  "dbscan-388": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-6": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8260869565217391
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-190": [
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-382": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-446": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6923076923076923
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 14,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-266": [
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.9354838709677419
+    }
+  ],
+  "dbscan-124": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-435": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-476": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 13,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-365": [
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 1,
+      "end_hour": 2,
+      "expected_intensity": 0.9354838709677419
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7419354838709677
+    }
+  ],
+  "dbscan-283": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-434": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-89": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-362": [
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-297": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.8823529411764706
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-250": [
+    {
+      "day_of_week": 3,
+      "start_hour": 17,
+      "end_hour": 17,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5862068965517241
+    }
+  ],
+  "dbscan-400": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-186": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-323": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-235": [
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-357": [
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8620689655172413
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7241379310344828
+    }
+  ],
+  "dbscan-177": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8260869565217391
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7391304347826086
+    }
+  ],
+  "dbscan-394": [
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-137": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-288": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8095238095238095
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-369": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-149": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-132": [
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-39": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-336": [
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-343": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7391304347826086
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-180": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8048780487804879
+    }
+  ],
+  "dbscan-321": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-222": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.6470588235294118
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-342": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-231": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-143": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-75": [
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-50": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8947368421052632
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6842105263157895
+    }
+  ],
+  "dbscan-404": [
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-490": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5348837209302325
+    }
+  ],
+  "dbscan-152": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-151": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-280": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-337": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5555555555555556
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-239": [
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-437": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.76
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.68
+    }
+  ],
+  "dbscan-127": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6470588235294118
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-271": [
+    {
+      "day_of_week": 2,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-285": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5348837209302325
+    }
+  ],
+  "dbscan-427": [
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-66": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8064516129032258
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6129032258064516
+    }
+  ],
+  "dbscan-129": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7254901960784313
+    }
+  ],
+  "dbscan-458": [
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-442": [
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8823529411764706
+    }
+  ],
+  "dbscan-333": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-275": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-322": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-462": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6842105263157895
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5789473684210527
+    }
+  ],
+  "dbscan-470": [
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-421": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6923076923076923
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-234": [
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5238095238095238
+    }
+  ],
+  "dbscan-370": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-348": [
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5272727272727272
+    }
+  ],
+  "dbscan-503": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8918918918918919
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7297297297297297
+    }
+  ],
+  "dbscan-419": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-119": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.927710843373494
+    }
+  ],
+  "dbscan-501": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-227": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-418": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-453": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8260869565217391
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-364": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-290": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-329": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-284": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-441": [
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-345": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-502": [
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-110": [
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-443": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-461": [
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-228": [
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-134": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5428571428571428
+    }
+  ],
+  "dbscan-424": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-422": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-472": [
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-449": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-313": [
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-392": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-408": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-256": [
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-460": [
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-428": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6923076923076923
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-340": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-398": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5555555555555556
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-581": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-477": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-459": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 15,
+      "end_hour": 15,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-208": [
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7894736842105263
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7894736842105263
+    }
+  ],
+  "dbscan-99": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6190476190476191
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5238095238095238
+    }
+  ],
+  "dbscan-229": [
+    {
+      "day_of_week": 5,
+      "start_hour": 14,
+      "end_hour": 15,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-292": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-474": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 0.8823529411764706
+    }
+  ],
+  "dbscan-508": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6923076923076923
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-224": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-431": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-107": [
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-436": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-409": [
+    {
+      "day_of_week": 1,
+      "start_hour": 15,
+      "end_hour": 15,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-324": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7543859649122807
+    }
+  ],
+  "dbscan-210": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-261": [
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.8666666666666667
+    }
+  ],
+  "dbscan-395": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-366": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.8666666666666667
+    }
+  ],
+  "dbscan-213": [
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-347": [
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-486": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.5555555555555556
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-471": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-491": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-516": [
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7948717948717948
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.5897435897435898
+    }
+  ],
+  "dbscan-145": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-184": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-304": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.5757575757575758
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.5151515151515151
+    }
+  ],
+  "dbscan-212": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-373": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8461538461538461
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 0.8461538461538461
+    }
+  ],
+  "dbscan-536": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-570": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.9487179487179487
+    }
+  ],
+  "dbscan-240": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-133": [
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-448": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-247": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-327": [
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 0.6190476190476191
+    }
+  ],
+  "dbscan-468": [
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-191": [
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-377": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-478": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-401": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7419354838709677
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6774193548387096
+    }
+  ],
+  "dbscan-450": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-426": [
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-316": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-374": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-320": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8666666666666667
+    }
+  ],
+  "dbscan-583": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-385": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-390": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-405": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-96": [
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-432": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-317": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8095238095238095
+    }
+  ],
+  "dbscan-384": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-444": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-270": [
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-33": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5294117647058824
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-312": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-356": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8666666666666667
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-420": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 0.68
+    }
+  ],
+  "dbscan-440": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-496": [
+    {
+      "day_of_week": 5,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-492": [
+    {
+      "day_of_week": 5,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5555555555555556
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-509": [
+    {
+      "day_of_week": 3,
+      "start_hour": 0,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-464": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-300": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-482": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7333333333333333
+    }
+  ],
+  "dbscan-403": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-546": [
+    {
+      "day_of_week": 6,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-399": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-487": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-341": [
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-178": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6470588235294118
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 4,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-196": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-541": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-158": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-255": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-396": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-550": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6962025316455697
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.620253164556962
+    }
+  ],
+  "dbscan-415": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-554": [
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7714285714285715
+    }
+  ],
+  "dbscan-232": [
+    {
+      "day_of_week": 3,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-375": [
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-289": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6363636363636364
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-495": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-71": [
+    {
+      "day_of_week": 5,
+      "start_hour": 5,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-429": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-387": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8095238095238095
+    }
+  ],
+  "dbscan-397": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-308": [
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-466": [
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-352": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-499": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.8823529411764706
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7647058823529411
+    }
+  ],
+  "dbscan-123": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-540": [
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-410": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-488": [
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6551724137931034
+    }
+  ],
+  "dbscan-188": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-447": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7391304347826086
+    }
+  ],
+  "dbscan-198": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-386": [
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-295": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-393": [
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-455": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-494": [
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.627906976744186
+    }
+  ],
+  "dbscan-411": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-512": [
+    {
+      "day_of_week": 5,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-549": [
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-402": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-475": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-576": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-530": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-242": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-438": [
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-407": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-573": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-84": [
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-338": [
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7647058823529411
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-565": [
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-467": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-162": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-480": [
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-551": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5151515151515151
+    }
+  ],
+  "dbscan-267": [
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-542": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-354": [
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-553": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-578": [
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-463": [
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-561": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-504": [
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5384615384615384
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-465": [
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-166": [
+    {
+      "day_of_week": 4,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-525": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-206": [
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-497": [
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-412": [
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-552": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-529": [
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-506": [
+    {
+      "day_of_week": 5,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.5238095238095238
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5238095238095238
+    }
+  ],
+  "dbscan-513": [
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-445": [
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-564": [
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-572": [
+    {
+      "day_of_week": 3,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-273": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-485": [
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-91": [
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 7,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-335": [
+    {
+      "day_of_week": 4,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-526": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.5555555555555556
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-481": [
+    {
+      "day_of_week": 3,
+      "start_hour": 23,
+      "end_hour": 23,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.8518518518518519
+    }
+  ],
+  "dbscan-417": [
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-293": [
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-296": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-425": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5294117647058824
+    }
+  ],
+  "dbscan-518": [
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-585": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-439": [
+    {
+      "day_of_week": 6,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-298": [
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-575": [
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-531": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-473": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-272": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-238": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.7333333333333333
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-276": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-586": [
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-315": [
+    {
+      "day_of_week": 5,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-507": [
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-201": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-299": [
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.6470588235294118
+    }
+  ],
+  "dbscan-582": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-557": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-479": [
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-510": [
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-545": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.9310344827586207
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.9310344827586207
+    }
+  ],
+  "dbscan-544": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-350": [
+    {
+      "day_of_week": 2,
+      "start_hour": 16,
+      "end_hour": 16,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7391304347826086
+    }
+  ],
+  "dbscan-64": [
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.8064516129032258
+    }
+  ],
+  "dbscan-519": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5555555555555556
+    }
+  ],
+  "dbscan-253": [
+    {
+      "day_of_week": 3,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-535": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-556": [
+    {
+      "day_of_week": 6,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6774193548387096
+    }
+  ],
+  "dbscan-246": [
+    {
+      "day_of_week": 6,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-391": [
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-269": [
+    {
+      "day_of_week": 3,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-548": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7931034482758621
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6551724137931034
+    }
+  ],
+  "dbscan-484": [
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-580": [
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.5384615384615384
+    }
+  ],
+  "dbscan-372": [
+    {
+      "day_of_week": 1,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-528": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-452": [
+    {
+      "day_of_week": 3,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-353": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-318": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-522": [
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 0.5789473684210527
+    }
+  ],
+  "dbscan-538": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-514": [
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-517": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-349": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.5238095238095238
+    }
+  ],
+  "dbscan-456": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-483": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-521": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-505": [
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.8181818181818182
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6363636363636364
+    }
+  ],
+  "dbscan-451": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-169": [
+    {
+      "day_of_week": 0,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-523": [
+    {
+      "day_of_week": 6,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.6190476190476191
+    }
+  ],
+  "dbscan-376": [
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-351": [
+    {
+      "day_of_week": 6,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 13,
+      "end_hour": 13,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-563": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-577": [
+    {
+      "day_of_week": 4,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-331": [
+    {
+      "day_of_week": 5,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-571": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.9130434782608695
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 10,
+      "end_hour": 10,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-515": [
+    {
+      "day_of_week": 3,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8181818181818182
+    }
+  ],
+  "dbscan-559": [
+    {
+      "day_of_week": 1,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-539": [
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 0.5652173913043478
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.5652173913043478
+    }
+  ],
+  "dbscan-361": [
+    {
+      "day_of_week": 0,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-278": [
+    {
+      "day_of_week": 1,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-543": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-560": [
+    {
+      "day_of_week": 4,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 5,
+      "expected_intensity": 0.7777777777777778
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-413": [
+    {
+      "day_of_week": 5,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.8260869565217391
+    }
+  ],
+  "dbscan-332": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-520": [
+    {
+      "day_of_week": 4,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6923076923076923
+    },
+    {
+      "day_of_week": 5,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-524": [
+    {
+      "day_of_week": 2,
+      "start_hour": 12,
+      "end_hour": 13,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-457": [
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-383": [
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-569": [
+    {
+      "day_of_week": 2,
+      "start_hour": 2,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.6923076923076923
+    }
+  ],
+  "dbscan-587": [
+    {
+      "day_of_week": 1,
+      "start_hour": 0,
+      "end_hour": 0,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 1,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 0.7777777777777778
+    }
+  ],
+  "dbscan-588": [
+    {
+      "day_of_week": 0,
+      "start_hour": 14,
+      "end_hour": 14,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 0.7142857142857143
+    },
+    {
+      "day_of_week": 4,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.7142857142857143
+    }
+  ],
+  "dbscan-378": [
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 6,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 0.6
+    }
+  ],
+  "dbscan-567": [
+    {
+      "day_of_week": 4,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-527": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-511": [
+    {
+      "day_of_week": 5,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-547": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-579": [
+    {
+      "day_of_week": 4,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-489": [
+    {
+      "day_of_week": 1,
+      "start_hour": 7,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 0,
+      "start_hour": 9,
+      "end_hour": 9,
+      "expected_intensity": 0.7391304347826086
+    }
+  ],
+  "dbscan-555": [
+    {
+      "day_of_week": 6,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 3,
+      "start_hour": 7,
+      "end_hour": 7,
+      "expected_intensity": 0.8095238095238095
+    }
+  ],
+  "dbscan-381": [
+    {
+      "day_of_week": 4,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-558": [
+    {
+      "day_of_week": 2,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-346": [
+    {
+      "day_of_week": 3,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-493": [
+    {
+      "day_of_week": 5,
+      "start_hour": 1,
+      "end_hour": 1,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-500": [
+    {
+      "day_of_week": 6,
+      "start_hour": 3,
+      "end_hour": 3,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-532": [
+    {
+      "day_of_week": 0,
+      "start_hour": 12,
+      "end_hour": 12,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-534": [
+    {
+      "day_of_week": 6,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-537": [
+    {
+      "day_of_week": 2,
+      "start_hour": 8,
+      "end_hour": 8,
+      "expected_intensity": 1.0
+    },
+    {
+      "day_of_week": 2,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 0.6521739130434783
+    }
+  ],
+  "dbscan-562": [
+    {
+      "day_of_week": 0,
+      "start_hour": 2,
+      "end_hour": 2,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-566": [
+    {
+      "day_of_week": 2,
+      "start_hour": 5,
+      "end_hour": 5,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-568": [
+    {
+      "day_of_week": 0,
+      "start_hour": 4,
+      "end_hour": 4,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-574": [
+    {
+      "day_of_week": 5,
+      "start_hour": 6,
+      "end_hour": 6,
+      "expected_intensity": 1.0
+    }
+  ],
+  "dbscan-584": [
+    {
+      "day_of_week": 0,
+      "start_hour": 11,
+      "end_hour": 11,
+      "expected_intensity": 1.0
+    }
+  ]
+}
