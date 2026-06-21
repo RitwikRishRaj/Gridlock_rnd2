@@ -702,6 +702,7 @@ def _render_ml_panel(zones_df: pd.DataFrame) -> None:
 @st.cache_resource(show_spinner=False)
 def _load_forecaster(model_path: str):
     """Load persisted DemandForecaster, auto-training it on first deploy if missing."""
+    import traceback
     try:
         if not os.path.exists(model_path):
             # Auto-train: find the violation CSV in the working directory or parent.
@@ -738,6 +739,8 @@ def _load_forecaster(model_path: str):
         from parking_intelligence.forecaster import DemandForecaster
         return DemandForecaster.load(model_path)
     except Exception:
+        # Store the traceback so the panel can display it for debugging
+        st.session_state["_forecaster_error"] = traceback.format_exc()
         return None
 
 
@@ -749,6 +752,7 @@ def _forecast_table(model_path: str, n_days: int, top_n: int) -> pd.DataFrame | 
     try:
         return fc.predict_hotspots(n_days=n_days, top_n=top_n)
     except Exception:
+        st.session_state["_forecaster_error"] = __import__("traceback").format_exc()
         return None
 
 
@@ -763,7 +767,18 @@ def _render_forecast_panel(artifacts_dir: str, n_days: int = 7) -> None:
             "in the working directory. Place the CSV in the project root and "
             "restart the dashboard — it will auto-train on first load (~20 s)."
         )
+        # --- TEMP DEBUG: show actual error so we can diagnose on Render ---
+        err = st.session_state.get("_forecaster_error")
+        if err:
+            st.error("**Debug — actual exception:**")
+            st.code(err)
+        else:
+            st.info(f"model_path resolved to: `{os.path.abspath(model_path)}`  \n"
+                    f"exists: `{os.path.exists(model_path)}`  \n"
+                    f"cwd: `{os.getcwd()}`")
+        # --- END TEMP DEBUG ---
         return
+
 
     st.caption(
         "LightGBM demand forecast: predicted total violations per zone over the "
