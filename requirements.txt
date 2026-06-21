@@ -1,5 +1,6 @@
 # Parking Intelligence - pinned runtime + test dependencies.
 # All processing runs locally and offline (Requirements 16.1, 16.2).
+# Python 3.11 required (see runtime.txt) — ensures pre-built wheels for all deps.
 
 # --- Core data / numerics ---
 pandas==2.2.3
@@ -14,12 +15,11 @@ geojson==3.1.0
 streamlit==1.40.2
 pydeck==0.9.1
 
-# --- Testing ---
-pytest==8.3.4
-hypothesis==6.122.3
+# --- Testing (local only — not needed on Streamlit Cloud) ---
+# pytest==8.3.4
+# hypothesis==6.122.3
 
 # --- Optional ML add-on (ml_forecast.py / analysis.py) ---
-# Removable: only needed for the violation-demand forecasting model and plots.
-# Delete ml_forecast.py + eval_output/ to drop this dependency.
 lightgbm==4.6.0
 matplotlib==3.9.2
+joblib
