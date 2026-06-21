@@ -16,4 +16,4 @@ confusion matrix [actual x pred]:
  [ 847 1982]]
 
 Persisted model: C:\Users\ritwi\OneDrive\Desktop\ex\Flipkart_GridLock_2.0_2nd_round_st1\artifacts\forecast_model.joblib
-Runtime: 45.8s
+Runtime: 38.1s

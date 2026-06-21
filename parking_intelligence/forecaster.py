@@ -239,14 +239,42 @@ class DemandForecaster:
 
     # -- Persistence ------------------------------------------------------
     def save(self, path: str) -> str:
+        import copy
         import joblib
+        # ----------------------------------------------------------------
+        # tail_history is a pandas DataFrame that contains string columns
+        # (h3_cell) whose dtype changed between pandas 2.x and 3.x.
+        # Storing it as a plain Python dict of lists avoids ALL pandas
+        # version incompatibilities in the pickle — no StringDtype,
+        # no DatetimeDtype, nothing that differs across versions.
+        # load() reconstructs the DataFrame from this dict.
+        # ----------------------------------------------------------------
+        to_save = copy.copy(self)
+        if to_save.tail_history is not None:
+            th = to_save.tail_history
+            to_save._tail_history_records = {
+                "h3_cell": [str(v) for v in th["h3_cell"].tolist()],
+                "date":    [str(v) for v in th["date"].tolist()],
+                "count":   [float(v) for v in th["count"].tolist()],
+            }
+            to_save.tail_history = None   # don't pickle the DataFrame
+        else:
+            to_save._tail_history_records = None
         os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
-        # protocol=4 ensures the file is loadable by Python 3.4+ regardless of
-        # which exact Python version the deployment server uses (3.11, 3.12, 3.13…)
-        joblib.dump(self, path, protocol=4)
+        joblib.dump(to_save, path, protocol=4)   # protocol 4 = Python 3.4+
         return os.path.abspath(path)
 
     @staticmethod
     def load(path: str) -> "DemandForecaster":
         import joblib
-        return joblib.load(path)
+        fc = joblib.load(path)
+        # Reconstruct tail_history DataFrame from plain-Python records dict.
+        records = getattr(fc, "_tail_history_records", None)
+        if records is not None and fc.tail_history is None:
+            fc.tail_history = pd.DataFrame({
+                "h3_cell": records["h3_cell"],
+                "date":    pd.to_datetime(records["date"]),
+                "count":   records["count"],
+            })
+        return fc
+

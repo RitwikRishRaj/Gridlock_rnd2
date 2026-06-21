@@ -40,8 +40,10 @@ Thumbs.db
 
 # ── Large data files (the CSV ships separately) ──────────────────────────────
 *.csv
-# Allow the pre-built artifacts needed for the dashboard (no raw data)
+# Allow pre-built artifacts needed for the dashboard (no raw data in these)
 !artifacts/priority_zones.csv
+!artifacts/hotspots.geojson
+!artifacts/forecast_model.joblib
 !requirements*.txt   # keep any *requirements*.txt that ends in .txt
 
 
